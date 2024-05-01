@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="myimagedatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="registrationform">
+    <Key>
+      <PropertyRef Name="regid" />
+    </Key>
+    <Property Name="regid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="lname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dob" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="phonenum" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="signin" Relationship="myimagedatabaseModel.FK_signin_ToTable" FromRole="registrationform" ToRole="signin" />
+  </EntityType>
+  <EntityType Name="signin">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="signin1" Relationship="Self.FK_signin_registrationform" FromRole="signin" ToRole="signin1" />
+    <NavigationProperty Name="signin2" Relationship="Self.FK_signin_registrationform" FromRole="signin1" ToRole="signin" />
+    <NavigationProperty Name="registrationform" Relationship="myimagedatabaseModel.FK_signin_ToTable" FromRole="signin" ToRole="registrationform" />
+  </EntityType>
+  <Association Name="FK_signin_registrationform">
+    <End Role="signin" Type="Self.signin" Multiplicity="1" />
+    <End Role="signin1" Type="Self.signin" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="signin">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="signin1">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="myimagedatabaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="registrationforms" EntityType="Self.registrationform" />
+    <EntitySet Name="signins" EntityType="Self.signin" />
+    <AssociationSet Name="FK_signin_registrationform" Association="Self.FK_signin_registrationform">
+      <End Role="signin" EntitySet="signins" />
+      <End Role="signin1" EntitySet="signins" />
+    </AssociationSet>
+    <EntitySet Name="adminsignins" EntityType="myimagedatabaseModel.adminsignin" />
+    <AssociationSet Name="FK_signin_ToTable" Association="myimagedatabaseModel.FK_signin_ToTable">
+      <End Role="registrationform" EntitySet="registrationforms" />
+      <End Role="signin" EntitySet="signins" />
+    </AssociationSet>
+    <EntitySet Name="contactforms" EntityType="myimagedatabaseModel.contactform" />
+    <EntitySet Name="sizeprizes" EntityType="myimagedatabaseModel.sizeprize" />
+    <EntitySet Name="bilingaddresses" EntityType="myimagedatabaseModel.bilingaddress" />
+    <EntitySet Name="paymentdetails" EntityType="myimagedatabaseModel.paymentdetail" />
+    <EntitySet Name="images" EntityType="myimagedatabaseModel.image" />
+    <EntitySet Name="userproducts" EntityType="myimagedatabaseModel.userproduct" />
+    <AssociationSet Name="FK_userproduct_ToTable" Association="myimagedatabaseModel.FK_userproduct_ToTable">
+      <End Role="sizeprize" EntitySet="sizeprizes" />
+      <End Role="userproduct" EntitySet="userproducts" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="adminsignin">
+    <Key>
+      <PropertyRef Name="adid" />
+    </Key>
+    <Property Name="adid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_signin_ToTable">
+    <End Type="myimagedatabaseModel.registrationform" Role="registrationform" Multiplicity="1" />
+    <End Type="myimagedatabaseModel.signin" Role="signin" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="registrationform">
+        <PropertyRef Name="regid" />
+      </Principal>
+      <Dependent Role="signin">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="contactform">
+    <Key>
+      <PropertyRef Name="ctcid" />
+    </Key>
+    <Property Name="ctcid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="First_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Last_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Subject" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Message" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="sizeprize">
+    <Key>
+      <PropertyRef Name="sizeid" />
+    </Key>
+    <Property Name="sizeid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="size" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="prize" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="userproduct" Relationship="myimagedatabaseModel.FK_userproduct_ToTable" FromRole="sizeprize" ToRole="userproduct" />
+  </EntityType>
+  <EntityType Name="bilingaddress">
+    <Key>
+      <PropertyRef Name="bilid" />
+    </Key>
+    <Property Name="bilid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Fname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Lname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ContactNumb" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="State" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PostalCode" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="paymentdetail">
+    <Key>
+      <PropertyRef Name="pyid" />
+    </Key>
+    <Property Name="pyid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cardnumber" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="expdate" Type="Int32" Nullable="false" />
+    <Property Name="cvcode" Type="Int32" Nullable="false" />
+    <Property Name="cardowner" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="image">
+    <Key>
+      <PropertyRef Name="imageid" />
+    </Key>
+    <Property Name="imageid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="image1" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="userproduct">
+    <Key>
+      <PropertyRef Name="sizeid" />
+    </Key>
+    <Property Name="sizeid" Type="Int32" Nullable="false" />
+    <Property Name="size" Type="Int32" Nullable="false" />
+    <Property Name="quantity" Type="Int32" Nullable="false" />
+    <Property Name="prize" Type="Int32" />
+    <NavigationProperty Name="sizeprize" Relationship="myimagedatabaseModel.FK_userproduct_ToTable" FromRole="userproduct" ToRole="sizeprize" />
+  </EntityType>
+  <Association Name="FK_userproduct_ToTable">
+    <End Type="myimagedatabaseModel.sizeprize" Role="sizeprize" Multiplicity="1" />
+    <End Type="myimagedatabaseModel.userproduct" Role="userproduct" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="sizeprize">
+        <PropertyRef Name="sizeid" />
+      </Principal>
+      <Dependent Role="userproduct">
+        <PropertyRef Name="sizeid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

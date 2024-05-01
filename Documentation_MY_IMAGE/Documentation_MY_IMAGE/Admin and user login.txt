@@ -1,0 +1,7 @@
+Admin 
+Email: 56huzaifamuhammad@gmail.com
+Password: 12345
+
+User
+Email: huzaifa@gmail.com
+Password: 12345

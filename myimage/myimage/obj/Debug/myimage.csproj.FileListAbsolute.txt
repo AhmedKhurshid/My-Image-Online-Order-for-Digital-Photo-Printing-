@@ -1,0 +1,365 @@
+D:\apteck work\myimage\myimage\myimage\bin\myimage.dll.config
+D:\apteck work\myimage\myimage\myimage\bin\myimage.dll
+D:\apteck work\myimage\myimage\myimage\bin\myimage.pdb
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\csc.exe
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\csc.exe.config
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\csc.rsp
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\csi.exe
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\csi.exe.config
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\csi.rsp
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\Microsoft.Managed.Core.targets
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.AppContext.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Collections.Immutable.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Console.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.IO.Compression.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.IO.FileSystem.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.IO.Pipes.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Reflection.Metadata.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Security.AccessControl.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Security.Claims.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Security.Principal.Windows.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.ValueTuple.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Xml.XmlDocument.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Xml.XPath.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\vbc.exe
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\vbc.exe.config
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\vbc.rsp
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\VBCSCompiler.exe
+D:\apteck work\myimage\myimage\myimage\bin\roslyn\VBCSCompiler.exe.config
+D:\apteck work\myimage\myimage\myimage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\apteck work\myimage\myimage\myimage\bin\Microsoft.Web.Infrastructure.dll
+D:\apteck work\myimage\myimage\myimage\bin\System.Web.Helpers.dll
+D:\apteck work\myimage\myimage\myimage\bin\System.Web.Mvc.dll
+D:\apteck work\myimage\myimage\myimage\bin\System.Web.Razor.dll
+D:\apteck work\myimage\myimage\myimage\bin\System.Web.Webpages.Deployment.dll
+D:\apteck work\myimage\myimage\myimage\bin\System.Web.Webpages.dll
+D:\apteck work\myimage\myimage\myimage\bin\System.Web.Webpages.Razor.dll
+D:\apteck work\myimage\myimage\myimage\bin\System.Web.Razor.xml
+D:\apteck work\myimage\myimage\myimage\bin\System.Web.Webpages.xml
+D:\apteck work\myimage\myimage\myimage\bin\System.Web.Webpages.Deployment.xml
+D:\apteck work\myimage\myimage\myimage\bin\System.Web.Webpages.Razor.xml
+D:\apteck work\myimage\myimage\myimage\bin\System.Web.Helpers.xml
+D:\apteck work\myimage\myimage\myimage\bin\System.Web.Mvc.xml
+D:\apteck work\myimage\myimage\myimage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\apteck work\myimage\myimage\myimage\obj\Debug\myimage.csprojAssemblyReference.cache
+D:\apteck work\myimage\myimage\myimage\obj\Debug\myimage.csproj.CoreCompileInputs.cache
+D:\apteck work\myimage\myimage\myimage\obj\Debug\myimage.csproj.CopyComplete
+D:\apteck work\myimage\myimage\myimage\obj\Debug\myimage.dll
+D:\apteck work\myimage\myimage\myimage\obj\Debug\myimage.pdb
+D:\apteck work\myimage\myimage\myimage\bin\EntityFramework.dll
+D:\apteck work\myimage\myimage\myimage\bin\EntityFramework.SqlServer.dll
+D:\apteck work\myimage\myimage\myimage\bin\EntityFramework.xml
+D:\apteck work\myimage\myimage\myimage\bin\EntityFramework.SqlServer.xml
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\myimage.dll.config
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\myimage.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\myimage.pdb
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\csc.exe
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\csc.exe.config
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\csc.rsp
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\csi.exe
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\csi.exe.config
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\csi.rsp
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.AppContext.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Console.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.IO.Compression.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.IO.Pipes.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Security.Claims.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.ValueTuple.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Xml.XPath.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\vbc.exe
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\vbc.exe.config
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\vbc.rsp
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\VBCSCompiler.exe
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\EntityFramework.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\EntityFramework.SqlServer.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\System.Web.Helpers.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\System.Web.Mvc.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\System.Web.Razor.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\System.Web.Webpages.Deployment.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\System.Web.Webpages.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\System.Web.Webpages.Razor.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\EntityFramework.xml
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\EntityFramework.SqlServer.xml
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\System.Web.Razor.xml
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\System.Web.Webpages.xml
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\System.Web.Webpages.Deployment.xml
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\System.Web.Webpages.Razor.xml
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\System.Web.Helpers.xml
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\System.Web.Mvc.xml
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\obj\Debug\myimage.csprojAssemblyReference.cache
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\obj\Debug\myimage.csproj.CoreCompileInputs.cache
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\obj\Debug\myimage.csproj.CopyComplete
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\obj\Debug\myimage.dll
+C:\Users\2.1.21\Desktop\myimage\myimage\myimage\myimage\obj\Debug\myimage.pdb
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\myimage.dll.config
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\myimage.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\myimage.pdb
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\csc.exe
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\csc.exe.config
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\csc.rsp
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\csi.exe
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\csi.exe.config
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\csi.rsp
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.AppContext.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Console.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.IO.Compression.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Security.Claims.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.ValueTuple.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\vbc.exe
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\vbc.exe.config
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\vbc.rsp
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\VBCSCompiler.exe
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\EntityFramework.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\System.Web.Helpers.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\System.Web.Mvc.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\System.Web.Razor.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\System.Web.Webpages.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\System.Web.Webpages.Razor.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\EntityFramework.xml
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\System.Web.Razor.xml
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\System.Web.Webpages.xml
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\System.Web.Webpages.Razor.xml
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\System.Web.Helpers.xml
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\System.Web.Mvc.xml
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\obj\Debug\myimage.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\obj\Debug\myimage.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\obj\Debug\myimage.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\obj\Debug\myimage.dll
+C:\Users\Lenovo\Desktop\myimage\myimage\myimage\obj\Debug\myimage.pdb
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\myimage.dll.config
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\myimage.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\myimage.pdb
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\csc.exe
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\csc.exe.config
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\csc.rsp
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\csi.exe
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\csi.exe.config
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\csi.rsp
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.AppContext.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Console.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.IO.Compression.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Security.Claims.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.ValueTuple.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\vbc.exe
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\vbc.exe.config
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\vbc.rsp
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\VBCSCompiler.exe
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\EntityFramework.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\System.Web.Helpers.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\System.Web.Mvc.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\System.Web.Razor.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\System.Web.Webpages.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\System.Web.Webpages.Razor.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\EntityFramework.xml
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\System.Web.Razor.xml
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\System.Web.Webpages.xml
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\System.Web.Webpages.Razor.xml
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\System.Web.Helpers.xml
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\System.Web.Mvc.xml
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\obj\Debug\myimage.csprojAssemblyReference.cache
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\obj\Debug\myimage.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\obj\Debug\myimage.csproj.CopyComplete
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\obj\Debug\myimage.dll
+C:\Users\Lenovo\Downloads\myimage\myimage\myimage\obj\Debug\myimage.pdb
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\myimage.dll.config
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\myimage.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\myimage.pdb
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\csc.exe
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\csc.exe.config
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\csc.rsp
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\csi.exe
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\csi.exe.config
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\csi.rsp
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.AppContext.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Console.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.IO.Compression.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.IO.Pipes.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Security.Claims.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.ValueTuple.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Xml.XPath.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\vbc.exe
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\vbc.exe.config
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\vbc.rsp
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\VBCSCompiler.exe
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\EntityFramework.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\EntityFramework.SqlServer.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\System.Web.Helpers.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\System.Web.Mvc.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\System.Web.Razor.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\System.Web.Webpages.Deployment.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\System.Web.Webpages.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\System.Web.Webpages.Razor.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\EntityFramework.xml
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\EntityFramework.SqlServer.xml
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\System.Web.Razor.xml
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\System.Web.Webpages.xml
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\System.Web.Webpages.Deployment.xml
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\System.Web.Webpages.Razor.xml
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\System.Web.Helpers.xml
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\System.Web.Mvc.xml
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\obj\Debug\myimage.csprojAssemblyReference.cache
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\obj\Debug\myimage.csproj.CoreCompileInputs.cache
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\obj\Debug\myimage.csproj.CopyComplete
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\obj\Debug\myimage.dll
+C:\Users\syeda\Downloads\myimage\myimage\myimage\myimage\obj\Debug\myimage.pdb

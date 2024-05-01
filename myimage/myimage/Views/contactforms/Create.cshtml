@@ -1,0 +1,270 @@
+﻿@model myimage.Models.contactform
+
+@{
+    ViewBag.Title = "Contact|My Image";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home|MyImage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700">
+    <link rel="stylesheet" href="~/homecss/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="~/homecss/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/homecss/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/homecss/css/jquery-ui.css">
+    <link rel="stylesheet" href="~/homecss/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/homecss/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="~/homecss/css/aos.css">
+    <link rel="stylesheet" href="~/homecss/css/style.css">
+
+</head>
+<body>
+
+    <div class="site-wrap">
+        <header class="site-navbar" role="banner">
+            <div class="site-navbar-top">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-6 col-md-4 order-2 order-md-1 site-search-icon text-left">
+                            <form action="" class="site-block-top-search">
+                                <span class="icon icon-search2"></span>
+                                <input type="text" class="form-control border-0" placeholder="Search">
+                            </form>
+                        </div>
+                        <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
+                            <div class="site-logo">
+                                <a href="index.html" class="js-logo-clone">MY IMAGE</a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 order-3 order-md-3 text-right">
+                            <div class="site-top-icons">
+                                <ul>
+                                    <li><a href="@Url.Action("signin")"><span class="icon icon-person"></span></a></li>
+                                    <li><a href="#"><span class="icon icon-heart-o"></span></a></li>
+                                    <li>
+                                        <a href="@Url.Action("addtocart", "ShoppingCart")" class="site-cart">
+                                            <span class="icon icon-shopping_cart"></span>
+
+                                        </a>
+                                    </li>
+                                    <li class="d-inline-block d-md-none ml-md-0"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu"></span></a></li>
+                                    <li>@Html.ActionLink("Logout", "logout", "admin")</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="site-navigation text-right text-md-center" role="navigation">
+                <div class="container">
+                    <ul class="site-menu js-clone-nav d-none d-md-block">
+                        <li>
+                            <a href="@Url.Action("home")">Home</a>
+                            @*<ul class="dropdown">
+                                    <li><a href="#">Menu One</a></li>
+                                    <li><a href="#">Menu Two</a></li>
+                                    <li><a href="#">Menu Three</a></li>
+                                    <li class="has-children">
+                                        <a href="#">Sub Menu</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Menu One</a></li>
+                                            <li><a href="#">Menu Two</a></li>
+                                            <li><a href="#">Menu Three</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>*@
+                        </li>
+                        <li>
+                            <a href="@Url.Action("aboutus","myimage")">About</a>
+
+                        </li>
+                        <li class="has-children">
+                            <a href="#">Prints</a>
+                            <ul class="dropdown">
+                                <li><a href="@Url.Action("shopmetallicprint","myimage")">Metallic Prints</a></li>
+                                <li><a href="@Url.Action("shopmetallicprint","myimage")">Framed Prints</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li><a href="@Url.Action("Create","contactforms")">Contact US</a></li>
+                        @*<li><a href="contact.html">Logout</a></li>*@
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-horizontal">
+                            <h4>contactform</h4>
+                            <hr />
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.First_Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.First_Name, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.First_Name, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Last_Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Last_Name, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Last_Name, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Subject, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Subject, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Message, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Message, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Message, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="submit" value="Send" class="btn btn-default" style="background-color:dodgerblue" />
+                                    <h3>@ViewBag.send</h3>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+
+
+                <div class="col-md-6" style="padding-top:150px">
+                    <div class="p-4 border mb-3">
+                        <span class="d-block text-primary h6 text-uppercase">Contact Number</span>
+                        <p class="mb-0">+92 000 0000 000</p>
+                    </div>
+                    <div class="p-4 border mb-3">
+                        <span class="d-block text-primary h6 text-uppercase">Email</span>
+                        <p class="mb-0">admin@domain.com</p>
+                    </div>
+                    <div class="p-4 border mb-3">
+                        <span class="d-block text-primary h6 text-uppercase">Address</span>
+                        <p class="mb-0">Aptech North Nazim Abad</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <footer class="site-footer border-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="footer-heading mb-4">Navigations</h3>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="@Url.Action("aboutus")">About</a></li>
+                                    <li><a href="#">Prints</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Mobile commerce</a></li>
+                                    <li><a href="#">Dropshipping</a></li>
+                                    <li><a href="#">Website development</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Point of sale</a></li>
+                                    <li><a href="#">Hardware</a></li>
+                                    <li><a href="#">Software</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <h3 class="footer-heading mb-4">Promo</h3>
+                        <a href="#" class="block-6">
+                            <img src="~/homecss/images/hero_1.jpg" alt="Image placeholder" class="img-fluid rounded mb-4">
+                            <h3 class="font-weight-light  mb-0">Finding Your Perfect Prints</h3>
+
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="block-5 mb-5">
+                            <h3 class="footer-heading mb-4">Contact Info</h3>
+                            <ul class="list-unstyled">
+                                <li class="address">APTECH NORTH NAZIMABAD, KARACHI,PAKISTAN</li>
+                                <li class="phone"><a href="tel://9200000000">+92 000 0000 000</a></li>
+                                <li class="email">emailaddress@domain.com</li>
+                            </ul>
+                        </div>
+                        <div class="block-7">
+                            <form action="#" method="post">
+                                <label for="email_subscribe" class="footer-heading">Subscribe</label>
+                                <div class="form-group">
+                                    <input type="text" class="form-control py-4" id="email_subscribe" placeholder="Email">
+                                    <input type="submit" class="btn btn-sm btn-primary" value="Send">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5 mt-5 text-center">
+                    <div class="col-md-12">
+                        <p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+                            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved |  <i class="icon-heart" aria-hidden="true"></i> by <a target="_blank" class="text-primary">My Image </a>
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="~/homecss/js/jquery-3.3.1.min.js"></script>
+    <script src="~/homecss/js/jquery-ui.js"></script>
+    <script src="~/homecss/js/popper.min.js"></script>
+    <script src="~/homecss/js/bootstrap.min.js"></script>
+    <script src="~/homecss/js/owl.carousel.min.js"></script>
+    <script src="~/homecss/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/homecss/js/aos.js"></script>
+    <script src="~/homecss/js/main.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>
+

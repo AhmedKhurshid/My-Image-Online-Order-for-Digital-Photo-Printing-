@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="myimagedatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="adminsignin">
+    <Key>
+      <PropertyRef Name="adid" />
+    </Key>
+    <Property Name="adid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="bilingaddress">
+    <Key>
+      <PropertyRef Name="bilid" />
+    </Key>
+    <Property Name="bilid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Lname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Address" Type="varchar(max)" Nullable="false" />
+    <Property Name="ContactNumb" Type="varchar(max)" Nullable="false" />
+    <Property Name="State" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PostalCode" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="contactform">
+    <Key>
+      <PropertyRef Name="ctcid" />
+    </Key>
+    <Property Name="ctcid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="First_Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Last Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Subject" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Message" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="image">
+    <Key>
+      <PropertyRef Name="imageid" />
+    </Key>
+    <Property Name="imageid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="image" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="paymentdetail">
+    <Key>
+      <PropertyRef Name="pyid" />
+    </Key>
+    <Property Name="pyid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cardnumber" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="expdate" Type="int" Nullable="false" />
+    <Property Name="cvcode" Type="int" Nullable="false" />
+    <Property Name="cardowner" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="registrationform">
+    <Key>
+      <PropertyRef Name="regid" />
+    </Key>
+    <Property Name="regid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="fname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="lname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="dob" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="gender" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="phonenum" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="address" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="signin">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sizeprize">
+    <Key>
+      <PropertyRef Name="sizeid" />
+    </Key>
+    <Property Name="sizeid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="size" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="prize" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="userproduct">
+    <Key>
+      <PropertyRef Name="sizeid" />
+    </Key>
+    <Property Name="sizeid" Type="int" Nullable="false" />
+    <Property Name="size" Type="int" Nullable="false" />
+    <Property Name="quantity" Type="int" Nullable="false" />
+    <Property Name="prize" Type="int" />
+  </EntityType>
+  <Association Name="FK_signin_ToTable">
+    <End Role="registrationform" Type="Self.registrationform" Multiplicity="1" />
+    <End Role="signin" Type="Self.signin" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="registrationform">
+        <PropertyRef Name="regid" />
+      </Principal>
+      <Dependent Role="signin">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_userproduct_ToTable">
+    <End Role="sizeprize" Type="Self.sizeprize" Multiplicity="1" />
+    <End Role="userproduct" Type="Self.userproduct" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="sizeprize">
+        <PropertyRef Name="sizeid" />
+      </Principal>
+      <Dependent Role="userproduct">
+        <PropertyRef Name="sizeid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="myimagedatabaseModelStoreContainer">
+    <EntitySet Name="adminsignin" EntityType="Self.adminsignin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="bilingaddress" EntityType="Self.bilingaddress" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="contactform" EntityType="Self.contactform" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="image" EntityType="Self.image" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="paymentdetail" EntityType="Self.paymentdetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="registrationform" EntityType="Self.registrationform" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="signin" EntityType="Self.signin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sizeprize" EntityType="Self.sizeprize" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="userproduct" EntityType="Self.userproduct" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_signin_ToTable" Association="Self.FK_signin_ToTable">
+      <End Role="registrationform" EntitySet="registrationform" />
+      <End Role="signin" EntitySet="signin" />
+    </AssociationSet>
+    <AssociationSet Name="FK_userproduct_ToTable" Association="Self.FK_userproduct_ToTable">
+      <End Role="sizeprize" EntitySet="sizeprize" />
+      <End Role="userproduct" EntitySet="userproduct" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="myimagedatabaseModelStoreContainer" CdmEntityContainer="myimagedatabaseEntities">
+    <EntitySetMapping Name="registrationforms">
+      <EntityTypeMapping TypeName="myimagedatabaseModel.registrationform">
+        <MappingFragment StoreEntitySet="registrationform">
+          <ScalarProperty Name="regid" ColumnName="regid" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="dob" ColumnName="dob" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="phonenum" ColumnName="phonenum" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="signins">
+      <EntityTypeMapping TypeName="myimagedatabaseModel.signin">
+        <MappingFragment StoreEntitySet="signin">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="adminsignins">
+      <EntityTypeMapping TypeName="myimagedatabaseModel.adminsignin">
+        <MappingFragment StoreEntitySet="adminsignin">
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="adid" ColumnName="adid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="contactforms">
+      <EntityTypeMapping TypeName="myimagedatabaseModel.contactform">
+        <MappingFragment StoreEntitySet="contactform">
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last Name" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="ctcid" ColumnName="ctcid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sizeprizes">
+      <EntityTypeMapping TypeName="myimagedatabaseModel.sizeprize">
+        <MappingFragment StoreEntitySet="sizeprize">
+          <ScalarProperty Name="prize" ColumnName="prize" />
+          <ScalarProperty Name="size" ColumnName="size" />
+          <ScalarProperty Name="sizeid" ColumnName="sizeid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bilingaddresses">
+      <EntityTypeMapping TypeName="myimagedatabaseModel.bilingaddress">
+        <MappingFragment StoreEntitySet="bilingaddress">
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="ContactNumb" ColumnName="ContactNumb" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Lname" ColumnName="Lname" />
+          <ScalarProperty Name="Fname" ColumnName="Fname" />
+          <ScalarProperty Name="bilid" ColumnName="bilid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="paymentdetails">
+      <EntityTypeMapping TypeName="myimagedatabaseModel.paymentdetail">
+        <MappingFragment StoreEntitySet="paymentdetail">
+          <ScalarProperty Name="cardowner" ColumnName="cardowner" />
+          <ScalarProperty Name="cvcode" ColumnName="cvcode" />
+          <ScalarProperty Name="expdate" ColumnName="expdate" />
+          <ScalarProperty Name="Cardnumber" ColumnName="Cardnumber" />
+          <ScalarProperty Name="pyid" ColumnName="pyid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="images">
+      <EntityTypeMapping TypeName="myimagedatabaseModel.image">
+        <MappingFragment StoreEntitySet="image">
+          <ScalarProperty Name="image1" ColumnName="image" />
+          <ScalarProperty Name="imageid" ColumnName="imageid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="userproducts">
+      <EntityTypeMapping TypeName="myimagedatabaseModel.userproduct">
+        <MappingFragment StoreEntitySet="userproduct">
+          <ScalarProperty Name="prize" ColumnName="prize" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="size" ColumnName="size" />
+          <ScalarProperty Name="sizeid" ColumnName="sizeid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c140d336058d4888be31be44b4d1bafe" Name="Diagram1">
+        <EntityTypeShape EntityType="myimagedatabaseModel.registrationform" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="myimagedatabaseModel.signin" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="myimagedatabaseModel.FK_signin_registrationform" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="myimagedatabaseModel.adminsignin" Width="1.5" PointX="0.75" PointY="4.75" />
+        <AssociationConnector Association="myimagedatabaseModel.FK_signin_ToTable" />
+        <EntityTypeShape EntityType="myimagedatabaseModel.contactform" Width="1.5" PointX="3.375" PointY="4.75" />
+        <EntityTypeShape EntityType="myimagedatabaseModel.sizeprize" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="myimagedatabaseModel.bilingaddress" Width="1.5" PointX="5.375" PointY="6.75" />
+        <EntityTypeShape EntityType="myimagedatabaseModel.paymentdetail" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="myimagedatabaseModel.image" Width="1.5" PointX="5.375" PointY="3.75" />
+        <EntityTypeShape EntityType="myimagedatabaseModel.userproduct" Width="1.5" PointX="7.625" PointY="4.375" />
+        <AssociationConnector Association="myimagedatabaseModel.FK_userproduct_ToTable" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
